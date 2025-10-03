@@ -143,7 +143,7 @@ div#woman {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
     /* border: rgb(160, 0, 160) 2px solid; */
     box-sizing: border-box;
 }
@@ -197,6 +197,64 @@ div.comment q {
 #nav a:hover::after {
     color: #1c1c1c;
 }
+@media only screen and (max-width: 1000px){
+    #nav {
+        font-size: 38px;
+        padding: 10px;
+    }
+    #nav a::after{
+        content: "|";
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 5px;
+    }
+    div.information {
+        font-size: 23px;
+        font-weight: 200;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h2.subtitles {
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.laptop img {
+        max-width: 70%;
+    }
+    div.logos img {
+        max-width: 30%;
+    }
+    div#man {
+        padding: 20px;
+        margin-bottom: -15px;
+        margin-top: -15px;
+    }
+    div.review q {
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    div#woman {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    div.comment q {
+        font-size: 23px;
+        padding-right: 20px;
+    }
+    #socials {
+        font-size: 38px;
+        padding: 10px;
+    }
+    #socials a::after {
+        content: "|";
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 @media only screen and (max-width: 600px) {
     #nav {
         font-size: 17px;
@@ -243,6 +301,64 @@ div.comment q {
     }
     div.comment q {
         font-size: 11.5px;
+        padding-right: 20px;
+    }
+    #socials {
+        font-size: 17px;
+        padding: 10px;
+    }
+    #socials a::after {
+        content: "|";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #nav {
+        font-size: 17px;
+        padding: 10px;
+    }
+    #nav a::after{
+        content: "|";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1 {
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    div.information {
+        font-size: 10.5px;
+        font-weight: 200;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h2.subtitles {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.laptop img {
+        max-width: 70%;
+    }
+    div.logos img {
+        max-width: 30%;
+    }
+    div#man {
+        padding: 20px;
+        margin-bottom: -15px;
+        margin-top: -15px;
+    }
+    div.review q {
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    div#woman {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    div.comment q {
+        font-size: 10px;
         padding-right: 20px;
     }
     #socials {
