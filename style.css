@@ -197,7 +197,7 @@ div.comment q {
 #nav a:hover::after {
     color: #1c1c1c;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 600px){
     #nav {
         font-size: 38px;
         padding: 10px;
