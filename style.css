@@ -48,16 +48,24 @@ body {
     text-decoration: none;
 }
 /* Alternate way of adding a border is by adding it to where you have placed float via border-right. If using a list however. */
-#nav a::after{
+#nav a::after{ 
     content: "|";
     padding-left: 50px;
     padding-right: 50px;
 }
-#nav a:last-child::after{
+#nav a:last-child::after{ 
     content: none;
-}
+} 
+/* Yet another way to add borders */
+/* .seperator { 
+    user-select: none;
+}*/
 #nav a:hover{
     color: rgb(224, 95, 121);
+}
+/* So only the text is affected */
+#nav a:hover::after {
+    color: #1c1c1c;
 }
 h1 {
     text-align: center;
@@ -185,6 +193,9 @@ div.comment q {
 }
 #socials a:hover{
     color: rgb(224, 95, 121);
+}
+#nav a:hover::after {
+    color: #1c1c1c;
 }
 @media only screen and (max-width: 600px) {
     #nav {
